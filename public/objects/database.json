@@ -1,0 +1,122 @@
+{
+  "Courses": [
+    {
+      "id": 1001,
+      "title": "Neuroscience and Neuroimaging",
+      "subTitle": "Harvard Medical School",
+      "image": "./images/acme_courses_1.png",
+      "rating": 4.8,
+      "reviews": 4878,
+      "tag": {
+        "title": "Most Expected",
+        "category": 1
+      },
+      "startDate": "01 January, 2021",
+      "enrolledUsers": 358,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 1002,
+      "title": "Advance Neurology",
+      "subTitle": "Stanford University of California",
+      "image": "./images/acme_courses_2.png",
+      "rating": 4.6,
+      "reviews": 3578,
+      "tag": {
+        "title": "Trending",
+        "category": 2
+      },
+      "startDate": "06 January, 2021",
+      "enrolledUsers": 287,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 1003,
+      "title": "Respiratory Therapy",
+      "subTitle": "Harvard Medical School",
+      "image": "./images/acme_courses_3.png",
+      "rating": 4.4,
+      "reviews": 3654,
+      "tag": {
+        "title": "Popular",
+        "category": 2
+      },
+      "startDate": "12 January, 2021",
+      "enrolledUsers": 234,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 1004,
+      "title": "Advance Neurology",
+      "subTitle": "Stanford University of California",
+      "image": "./images/acme_courses_2.png",
+      "rating": 4.6,
+      "reviews": 3578,
+      "tag": {},
+      "startDate": "06 January, 2021",
+      "enrolledUsers": 287,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 1005,
+      "title": "Respiratory Therapy",
+      "subTitle": "Harvard Medical School",
+      "image": "./images/acme_courses_3.png",
+      "rating": 4.4,
+      "reviews": 3654,
+      "tag": {},
+      "startDate": "12 January, 2021",
+      "enrolledUsers": 234,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 1006,
+      "title": "Advance Neurology",
+      "subTitle": "Harvard Medical School",
+      "image": "./images/acme_courses_1.png",
+      "rating": 4.8,
+      "reviews": 4878,
+      "tag": {},
+      "startDate": "01 January, 2021",
+      "enrolledUsers": 358,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },{
+      "id": 1007,
+      "title": "Respiratory Therapy",
+      "subTitle": "Harvard Medical School",
+      "image": "./images/acme_courses_3.png",
+      "rating": 4.4,
+      "reviews": 3654,
+      "tag": {},
+      "startDate": "12 January, 2021",
+      "enrolledUsers": 234,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },{
+      "id": 1008,
+      "title": "Neuroscience and Neuroimaging",
+      "subTitle": "Harvard Medical School",
+      "image": "./images/acme_courses_1.png",
+      "rating": 4.8,
+      "reviews": 4878,
+      "tag": {
+        "title": "Most Expected",
+        "category": 1
+      },
+      "startDate": "01 January, 2021",
+      "enrolledUsers": 358,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 1009,
+      "title": "Advance Neurology",
+      "subTitle": "Stanford University of California",
+      "image": "./images/acme_courses_2.png",
+      "rating": 4.8,
+      "reviews": 4878,
+      "tag": {},
+      "startDate": "01 January, 2021",
+      "enrolledUsers": 358,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    }
+  ]
+}
