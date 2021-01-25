@@ -1,13 +1,12 @@
 import React from "react";
 import {Navbar, Nav, Button, Form, FormControl, Image } from 'react-bootstrap';
 
-const LOGO = process.env.PUBLIC_URL + 'images/acme-logo.svg';
 
 
 function Header () {
     return (
-        <Navbar expand='sm' fixed="top" bg='white'>
-            <Navbar.Brand href='/'> <Image src={LOGO} /> </Navbar.Brand>
+        <Navbar expand='lg' fixed="top" bg='white'>
+            <Navbar.Brand href='/'> <Image src="/images/acme-logo.svg" /> </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-nav" />
             <Navbar.Collapse id="navbar-nav">
                 <Nav className="mr-auto">

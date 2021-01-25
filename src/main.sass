@@ -115,6 +115,9 @@ nav.navbar
 .top-spacer
   @extend %top-spacer
 
+.bottom-spacer-60
+  margin-bottom: 60px
+
 .bottom-spacer-20
   margin-bottom: 20px
 
@@ -143,69 +146,6 @@ nav.navbar
     margin: 0
 
 
-.course-card
-  position: relative
-  border: 1px solid #FFF
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1)
-
-  .card-image
-    position: absolute
-    top: -30px
-    width: 60px
-    height: 60px
-
-  .card-body
-    padding-top: 46px
-
-  .card-subtitle
-    font-weight: normal
-    font-size: 13px
-    color: #878787 !important
-    margin-bottom: 4px !important
-
-  .card-title
-    font-weight: 500
-    font-size: 16px
-    text-align: left
-    margin-bottom: 8px !important
-
-  .course-detail-div
-    display: inline-block
-    width: 48%
-    margin-right: 2%
-  .course-duration-head
-    font-weight: normal
-    font-size: 14px
-    margin-bottom: 8px
-
-    img
-      margin-right: 7px
-
-  .course-duration-text
-    font-size: 14px
-    margin: 0
-    font-weight: 500
-
-  .starRating
-    font-size: 13px
-    margin-bottom: 20px
-
-  button
-    margin-top: 20px
-
-    > svg
-      width: 13px !important
-      height: 13px !important
-
-    > span,svg
-      vertical-align: sub
-
-  &:hover
-    cursor: pointer
-    @extend %scale
-    background-color: lighten($primary-color, 58%)
-    border: 1px solid rgba($primary-color, .4)
-    box-shadow: 0 3px 8px rgba($primary-color, 0.10)
 
 
 .news-letter-banner
@@ -320,5 +260,8 @@ nav.navbar
       padding: 6px 15px
 
 
-
-
+.login-container
+  margin-top: 130px
+  padding: 40px 30px
+  border-radius: 5px
+  box-shadow: 0 3px 8px rgba(0,0,0,0.16)

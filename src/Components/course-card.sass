@@ -1,0 +1,105 @@
+$primary-color : #0056D2
+
+%scale
+  transform: scale(1.075)
+  transition: .1s all ease-in-out
+
+@mixin courseTag($property)
+  background-color: $property
+  &:before
+    border: 1.35em solid $property
+    border-left-color: transparent
+
+
+
+
+.course-card
+  position: relative
+  border: 1px solid #FFF
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1)
+  margin-top: 60px
+
+  .card-image
+    position: absolute
+    top: -30px
+    width: 60px
+    height: 60px
+
+  .card-body
+    padding-top: 46px
+
+  .card-subtitle
+    font-weight: normal
+    font-size: 13px
+    color: #878787 !important
+    margin-bottom: 4px !important
+
+  .card-title
+    font-weight: 500
+    font-size: 16px
+    text-align: left
+    margin-bottom: 8px !important
+
+  .course-duration-head
+    font-weight: normal
+    font-size: 13px
+    margin-bottom: 8px
+
+    img
+      margin-right: 7px
+
+  .course-duration-text
+    font-size: 13px
+    margin: 0
+    font-weight: 500
+
+  .starRating
+    font-size: 13px
+    margin-bottom: 20px
+
+  button
+    margin-top: 20px
+
+    > svg
+      width: 13px !important
+      height: 13px !important
+
+    > span,svg
+      vertical-align: sub
+
+  &:hover
+    cursor: pointer
+    @extend %scale
+    background-color: lighten($primary-color, 58%)
+    border: 1px solid rgba($primary-color, .4)
+    box-shadow: 0 3px 8px rgba($primary-color, 0.10)
+
+
+  .course-tag
+    position: absolute
+    right: 0
+    top: 0
+    transform: translate(10%, 25%)
+    font-size: 12px
+    font-weight: 600
+    padding: 7px 12px
+    border-radius: 0
+    z-index: 999
+    color: #FFF
+
+    &:before
+      content: ""
+      position: absolute
+      display: block
+      bottom: 0
+      z-index: -1
+      left: -1.3em
+
+  .course-tag.tag-1
+    @include courseTag(#FA2F38)
+
+  .course-tag.tag-2
+    @include courseTag(#1166FB)
+
+  .course-tag.tag-2
+    @include courseTag(#0056D2)
